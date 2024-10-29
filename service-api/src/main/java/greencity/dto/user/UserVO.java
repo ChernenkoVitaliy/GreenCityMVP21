@@ -47,8 +47,6 @@ public class UserVO {
 
     private LocalDateTime dateOfRegistration;
 
-    private List<UserVO> userFriends = new ArrayList<>();
-
     private String refreshTokenKey;
 
     private OwnSecurityVO ownSecurity;
